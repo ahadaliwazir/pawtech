@@ -1,0 +1,54 @@
+---
+const today = new Date();
+
+const categories = [
+  { name: 'GPS Trackers', href: '/categories/gps-trackers/' },
+  { name: 'Auto Feeders', href: '/categories/feeders/' },
+  { name: 'Pet Cameras', href: '/categories/cameras/' },
+  { name: 'Smart Litter Boxes', href: '/categories/litter-boxes/' },
+];
+---
+
+<footer class="bg-gray-900 text-gray-400">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <a href="/" class="flex items-center gap-2 no-underline mb-4">
+          <span class="text-2xl">🐾</span>
+          <span class="text-lg font-bold text-white font-sans">Paw<span class="text-indigo-400">Tech</span></span>
+        </a>
+        <p class="text-sm leading-relaxed">
+          Honest, in-depth reviews of smart pet tech. We help pet owners find the best gadgets for their furry friends.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Categories</h4>
+        <ul class="space-y-2 list-none p-0 m-0">
+          {categories.map(cat => (
+            <li>
+              <a href={cat.href} class="text-sm text-gray-400 hover:text-white no-underline transition-colors">
+                {cat.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">About</h4>
+        <ul class="space-y-2 list-none p-0 m-0">
+          <li><a href="/about/" class="text-sm text-gray-400 hover:text-white no-underline transition-colors">About Us</a></li>
+          <li><a href="/reviews/" class="text-sm text-gray-400 hover:text-white no-underline transition-colors">All Reviews</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <p class="text-xs">&copy; {today.getFullYear()} PawTech. All rights reserved.</p>
+      <p class="text-xs">
+        Affiliate Disclosure: We earn commissions from qualifying purchases. This doesn't affect our reviews.
+      </p>
+    </div>
+  </div>
+</footer>

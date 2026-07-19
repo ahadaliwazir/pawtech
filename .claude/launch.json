@@ -1,0 +1,10 @@
+{
+  "version": "0.0.1",
+  "servers": {
+    "pawtech": {
+      "command": "npx astro dev --port 3000",
+      "cwd": "F:/yet/pawtech",
+      "url": "http://localhost:3000"
+    }
+  }
+}

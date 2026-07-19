@@ -1,0 +1,16 @@
+---
+interface Props {
+  rating: number;
+  size?: 'sm' | 'md' | 'lg';
+}
+
+const { rating, size = 'md' } = Astro.props;
+const sizeClass = { sm: 'text-sm', md: 'text-base', lg: 'text-xl' }[size];
+---
+
+<div class={`flex items-center gap-0.5 ${sizeClass}`} aria-label={`${rating} out of 5 stars`}>
+  {Array.from({length: 5}).map((_, i) => (
+    <span class={i < rating ? 'text-amber-400' : 'text-gray-200'}>★</span>
+  ))}
+  <span class="ml-1 text-sm text-gray-500 font-medium">{rating}/5</span>
+</div>

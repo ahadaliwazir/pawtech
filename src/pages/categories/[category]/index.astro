@@ -1,0 +1,79 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../../components/BaseHead.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import { SITE_TITLE } from '../../../consts';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('blog');
+  const categories = [...new Set(allPosts.map(p => p.data.category))];
+
+  return categories.map(category => ({
+    params: { category },
+    props: {
+      posts: allPosts
+        .filter(p => p.data.category === category)
+        .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
+      category,
+    },
+  }));
+}
+
+const { posts, category } = Astro.props;
+const categoryTitle = (category as string).replace(/-/g, ' ');
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={`Best ${categoryTitle} — Reviews | ${SITE_TITLE}`}
+      description={`In-depth reviews of the best ${categoryTitle} for pets. Tested and compared.`}
+    />
+  </head>
+  <body class="bg-white text-gray-900 font-sans">
+    <Header />
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <!-- Breadcrumb -->
+      <nav class="flex items-center gap-2 text-sm text-gray-500 mb-6">
+        <a href="/" class="hover:text-gray-900 no-underline">Home</a>
+        <span>/</span>
+        <a href="/categories/" class="hover:text-gray-900 no-underline">Categories</a>
+        <span>/</span>
+        <span class="text-gray-900 capitalize">{categoryTitle}</span>
+      </nav>
+
+      <div class="mb-10">
+        <h1 class="text-3xl md:text-4xl font-extrabold mb-3 capitalize">Best {categoryTitle}</h1>
+        <p class="text-gray-500 text-lg">Our top picks, tested and compared.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {posts.map((post: any) => (
+          <a href={`/reviews/${post.id}/`} class="group bg-white rounded-xl overflow-hidden border border-gray-100 hover:shadow-lg transition-all no-underline">
+            <div class="p-6">
+              <h2 class="font-semibold text-gray-900 group-hover:text-indigo-600 transition-colors mb-2 text-lg leading-snug">
+                {post.data.title}
+              </h2>
+              <p class="text-sm text-gray-500 line-clamp-2 mb-4">{post.data.description}</p>
+              <div class="flex items-center justify-between">
+                {post.data.rating && (
+                  <div class="flex items-center gap-0.5 text-sm">
+                    {Array.from({length: 5}).map((_: any, i: number) => (
+                      <span class={i < post.data.rating! ? 'text-amber-400' : 'text-gray-200'}>★</span>
+                    ))}
+                  </div>
+                )}
+                {post.data.price && (
+                  <span class="text-sm font-semibold text-emerald-600">{post.data.price}</span>
+                )}
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
