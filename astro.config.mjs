@@ -7,7 +7,7 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://pawtech.com',
+  site: 'https://pettech.online',
   integrations: [mdx(), sitemap()],
 
   vite: {
