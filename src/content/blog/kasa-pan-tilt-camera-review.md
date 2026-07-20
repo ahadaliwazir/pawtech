@@ -8,6 +8,7 @@ pros: ["Affordable", "Pan and tilt functionality", "Motion tracking", "Clear 108
 cons: ["Not pet-specific (no treat dispenser)", "Requires local storage for some features"]
 affiliateLink: "https://amzn.to/3TLTNMw"
 price: "$20.99"
+heroImage: "/kasa-camera.png"
 ---
 
 ## What is the Kasa Smart Camera?
