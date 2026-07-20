@@ -2,7 +2,7 @@
 title: "Best Self-Cleaning Litter Boxes 2025: Top 5 Compared"
 description: "We tested the top self-cleaning litter boxes of 2025 side by side. From the Litter-Robot 4 to budget options, here's which automatic litter box is worth your money."
 pubDate: 2025-07-12
-category: "smart-litter"
+category: "litter-boxes"
 rating: 5
 pros: []
 cons: []

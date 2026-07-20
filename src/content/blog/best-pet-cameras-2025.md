@@ -2,7 +2,7 @@
 title: "Best Pet Cameras 2025: Top 5 Compared"
 description: "We tested and compared the 5 best pet cameras of 2025 — from budget options to premium treat-tossing models. Find the right camera for your pet and budget."
 pubDate: 2025-07-10
-category: "pet-cameras"
+category: "cameras"
 rating: 5
 pros: []
 cons: []

@@ -19,12 +19,40 @@ const categories = [
   { name: 'Wearables', slug: 'wearables', icon: '⌚', desc: 'Activity & health tracking for your pet' },
   { name: 'Smart Doors', slug: 'smart-doors', icon: '🚪', desc: 'Microchip-activated pet doors for safety' },
 ];
+const websiteSchema = {
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	"name": SITE_TITLE,
+	"url": "https://pettech.online",
+	"description": SITE_DESCRIPTION,
+	"inLanguage": "en-US",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": {
+			"@type": "EntryPoint",
+			"urlTemplate": `https://pettech.online/reviews?q={search_term_string}`
+		},
+		"query-input": "required name=search_term_string"
+	}
+};
+
+const organizationSchema = {
+	"@context": "https://schema.org",
+	"@type": "Organization",
+	"name": SITE_TITLE,
+	"url": "https://pettech.online",
+	"logo": `https://pettech.online/favicon.svg`,
+	"description": SITE_DESCRIPTION,
+	"sameAs": []
+};
 ---
 
 <!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
     <BaseHead title={`${SITE_TITLE} — Smart Gadgets for Pet Owners`} description={SITE_DESCRIPTION} />
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
   </head>
   <body class="bg-white text-gray-900 font-sans">
     <Header />

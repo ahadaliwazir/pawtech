@@ -2,7 +2,7 @@
 title: "eufy Pet Camera D605 Review: Treats + AI Without a Subscription"
 description: "We tested the eufy Pet Camera D605 for three weeks. With AI detection, treat tossing, and zero subscription fees, is this the best mid-range pet camera in 2025?"
 pubDate: 2025-06-30
-category: "pet-cameras"
+category: "cameras"
 rating: 4
 pros: ["No monthly subscription — all AI features included", "Treat dispenser with adjustable toss distance", "2K video resolution (sharper than most competitors)", "AI pet detection and activity zones", "Local storage via microSD (no cloud dependency)"]
 cons: ["Fixed camera angle (no pan, tilt, or rotation)", "Treat hopper capacity is small (about 30 treats)", "No Alexa or Google Home integration", "Design is bulky and hard to disguise"]

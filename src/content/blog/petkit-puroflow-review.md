@@ -2,7 +2,7 @@
 title: "PETKIT Puroflow Ultra Review: Sleek Self-Cleaning Litter Box"
 description: "We tested the PETKIT Puroflow Ultra self-cleaning litter box for six weeks with two cats. Here's how its smart detection, odor control, and app integration performed."
 pubDate: 2025-07-02
-category: "smart-litter"
+category: "litter-boxes"
 rating: 4
 pros: ["Quiet operation compared to competitors", "xSecure safety system with multiple sensors", "Large capacity suits multi-cat homes", "Sleek modern design", "App shows usage stats and health insights"]
 cons: ["$469 is still a major investment", "Proprietary waste bags add ongoing cost", "Large footprint — needs dedicated floor space", "Occasional false-start cycles with lightweight cats"]

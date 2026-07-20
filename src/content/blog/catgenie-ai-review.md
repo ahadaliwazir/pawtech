@@ -2,7 +2,7 @@
 title: "CatGenie A.I. Review: Self-Washing Litter Box That Flushes"
 description: "We tested the CatGenie A.I. self-washing litter box for two months. It washes, sanitizes, and flushes automatically — but at $579, is the convenience worth the investment?"
 pubDate: 2025-06-25
-category: "smart-litter"
+category: "litter-boxes"
 rating: 3
 pros: ["Truly hands-free — washes, sanitizes, and drains automatically", "Uses washable granules instead of litter (no ongoing litter costs)", "AI learns your cat's schedule", "Eliminates odor when working properly", "Eco-friendly vs disposable litter"]
 cons: ["$579 is a significant investment", "Complex installation requires water line and drain access", "Wash cycle is loud and takes 30+ minutes", "Occasional clogs require manual maintenance", "Proprietary cleaning solution cartridges ($25 each)"]

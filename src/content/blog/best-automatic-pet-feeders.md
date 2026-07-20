@@ -2,7 +2,7 @@
 title: "Best Automatic Pet Feeders 2025: Top 5 Compared"
 description: "We tested the best automatic pet feeders of 2025 head to head. From smart scheduling to microchip-controlled access, here's which feeder is right for your pet."
 pubDate: 2025-07-14
-category: "smart-feeders"
+category: "feeders"
 rating: 5
 pros: []
 cons: []

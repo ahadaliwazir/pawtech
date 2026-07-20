@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pettech.online/sitemap-index.xml

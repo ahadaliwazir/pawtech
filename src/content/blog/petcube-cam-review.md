@@ -2,7 +2,7 @@
 title: "Petcube Cam 2 Review: Best Budget Pet Camera?"
 description: "We tested the Petcube Cam 2 for three weeks. At just $49, it offers 1080p video, two-way audio, and smart alerts — but how does it stack up against pricier options?"
 pubDate: 2025-06-15
-category: "pet-cameras"
+category: "cameras"
 rating: 4
 pros: ["Unbeatable $49 price point", "1080p HD video with night vision", "Two-way audio works well", "Compact and discreet design", "Free basic motion alerts"]
 cons: ["No treat dispenser", "160° field of view (no pan or tilt)", "Smart alerts require Petcube Care subscription ($5/mo)", "No auto-tracking"]

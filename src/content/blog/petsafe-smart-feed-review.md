@@ -2,7 +2,7 @@
 title: "PetSafe Smart Feed 2.0 Review: Reliable Automatic Feeder"
 description: "We tested the PetSafe Smart Feed 2.0 automatic pet feeder for a month. Here's how its scheduling, portion control, and app performed for our two dogs."
 pubDate: 2025-07-08
-category: "smart-feeders"
+category: "feeders"
 rating: 4
 pros: ["Flexible scheduling up to 12 meals per day", "Precise portions from 1/8 cup to 4 cups", "Slow feed mode to prevent gulping", "Large 24-cup hopper capacity", "Works with Alexa and Google Assistant"]
 cons: ["Only works with dry kibble (no wet food)", "$189 is pricey for a basic feeder", "Wi-fi connectivity drops occasionally", "Hopper lid doesn't lock — clever pets can open it"]

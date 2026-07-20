@@ -1,0 +1,37 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={`Contact Us | ${SITE_TITLE}`} description="Get in touch with the PetTech team." />
+  </head>
+  <body class="bg-white text-gray-900 font-sans">
+    <Header />
+    <main class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
+      <h1 class="text-3xl md:text-4xl font-extrabold mb-6">Contact Us</h1>
+
+      <div class="prose prose-lg max-w-none text-gray-700">
+        <p>
+          Have a question about a review? Want us to test a specific pet tech product? We'd love to hear from you!
+        </p>
+
+        <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Email Us</h2>
+        <p>
+          You can reach us anytime at: <br/>
+          <a href="mailto:hello@pettech.online" class="font-medium text-indigo-600 hover:text-indigo-800 no-underline">hello@pettech.online</a>
+        </p>
+
+        <h2 class="text-2xl font-bold text-gray-900 mt-8 mb-4">Partnerships & Advertising</h2>
+        <p>
+          If you represent a pet technology brand and would like us to review your product, please note that we do not accept payment for positive reviews. All products are tested independently. Contact us at the email above for shipping details.
+        </p>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>

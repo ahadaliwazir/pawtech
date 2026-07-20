@@ -13,7 +13,7 @@ const blog = defineCollection({
 			heroImage: z.optional(image()),
 			category: z.enum(['gps-trackers', 'feeders', 'cameras', 'litter-boxes', 'wearables', 'smart-doors', 'guides']).default('guides'),
 			affiliateProduct: z.string().optional(),
-			affiliateLink: z.string().url().optional(),
+			affiliateLink: z.string().optional(),
 			rating: z.number().min(1).max(5).optional(),
 			price: z.string().optional(),
 		}),

@@ -2,7 +2,7 @@
 title: "SureFeed Microchip Pet Feeder Review: The Multi-Pet Solution"
 description: "We tested the SureFeed Microchip Pet Feeder in a two-cat household for a month. If food stealing is your problem, this feeder solves it. Here's our full review."
 pubDate: 2025-07-05
-category: "smart-feeders"
+category: "feeders"
 rating: 5
 pros: ["Opens only for registered pets via microchip or RFID tag", "No app or wi-fi needed — works offline", "Sealed bowl keeps food fresh", "Stops food stealing in multi-pet homes completely", "Battery-powered (lasts 6+ months on 4 C batteries)"]
 cons: ["Not a timed/automatic portioning feeder", "Doesn't track food intake digitally", "Bowl capacity is limited (13.5 oz)", "Training period needed for some shy cats"]

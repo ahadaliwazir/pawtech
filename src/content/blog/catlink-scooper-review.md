@@ -2,7 +2,7 @@
 title: "CATLINK Luxury Pro Review: Self-Cleaning Litter Box for Big Cats"
 description: "We tested the CATLINK Luxury Pro self-cleaning litter box for six weeks with two large cats. Here's how its multi-cat recognition, spacious design, and odor control performed."
 pubDate: 2025-07-03
-category: "smart-litter"
+category: "litter-boxes"
 rating: 4
 pros: ["Individual cat recognition by weight", "Extra-large drum fits cats up to 22 lbs", "Strong odor control with sealed waste bin", "App tracks each cat's usage separately", "Quiet rotation cycle"]
 cons: ["$599 price point", "Heavy unit (28 lbs) is hard to move", "App can be glitchy and slow to update", "Customer support responses are slow", "Requires specific clumping litter types"]
